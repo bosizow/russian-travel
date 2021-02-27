@@ -1,0 +1,22 @@
+.section_wide {
+  max-width: 1184px;
+  margin: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .section_wide {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section_wide {
+    margin: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1184px) {
+  .section_wide {
+    margin: 0 auto;
+  }
+}

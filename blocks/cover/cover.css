@@ -1,0 +1,25 @@
+.cover {
+  margin-bottom: 40px;
+  width: 100%;
+  min-height: calc(100vw * .625);
+  /* bg */
+  background-image: url(../../images/cover/cover-trains.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgba(42,44,47,.3);
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    margin-bottom: 64px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin-bottom: 68px;
+    width: 100%;
+  }
+}
