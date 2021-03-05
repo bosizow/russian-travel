@@ -12,3 +12,4 @@
 
 Сверстан по методологии БЭМ с использованием grid и flex.
 
+[Ссылка на проектную работу](https://bosizow.github.io/russian-travel/)

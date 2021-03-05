@@ -11,22 +11,20 @@
 
       <header class="header section section_wide">
         <img class="header__logo" alt="логотип" src="./images/logo/header-logo.svg">
-        <nav class="header__links">
-          <ul class="header__link-list">
-            <li class="header__link-container"><a href="#" class="link header__link  header__link_active" lang="en" title="switch to russian" target="_blank">Ru</a></li>
-            <li class="header__link-container"><a href="#" class="link  header__link" lang="en" title="switch to english" target="_blank">En</a></li>
-          </ul>
-        </nav>
+        <ul class="header__link-list">
+          <li class="header__link-container"><a href="#" class="link header__link  header__link_active" lang="en" title="switch to russian" target="_self">Ru</a></li>
+          <li class="header__link-container"><a href="#" class="link  header__link" lang="en" title="switch to english" target="_self">En</a></li>
+        </ul>
       </header>
 
       <main class="content">
 
-        <section class="lead section section_narrow">
-          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <section class="lead">
+          <h1 class="lead__title section section_narrow">Путешествия по&nbsp;России</h1>
+          <p class="lead__subtitle section section_narrow">Настоящая страна не в выпусках новостей, а здесь.</p>
           <figure class="lead__figure">
             <img src="./images/lead/lead-polka.png" alt="полка" class="lead__image">
-            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+            <figcaption class="lead__caption section section_narrow">ваша полка — верхняя</figcaption>
           </figure>
         </section>
 
@@ -35,28 +33,28 @@
             <h2 class="intro__title">Чего мы там не видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list">
-              <li class="intro__item"><em class="intro__accent">Часовых поясов</em> 11</li>
-              <li class="intro__item"><em class="intro__accent">Объектов природного наследия ЮНЕСКО</em> 12</li>
-              <li class="intro__item"><em class="intro__accent">Объектов культурного наследия ЮНЕСКО</em> 16</li>
-              <li class="intro__item"><em class="intro__accent">Природных заповедников</em> 105</li>
-              <li class="intro__item"><em class="intro__accent">Аэропортов</em> 241</li>
+              <li class="intro__item"><span class="intro__accent">Часовых поясов</span> 11</li>
+              <li class="intro__item"><span class="intro__accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+              <li class="intro__item"><span class="intro__accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+              <li class="intro__item"><span class="intro__accent">Природных заповедников</span> 105</li>
+              <li class="intro__item"><span class="intro__accent">Аэропортов</span> 241</li>
             </ul>
           </div>
         </section>
 
-        <section class="photo-grind section section_wide">
-          <img src="./images/photo-grid/photo-grid-train.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-tuman.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-sochi.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-arisa.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-baikal-2.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-kondratiev.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-kamchatka-1.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-kamchatka-2.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-baikal-2.jpg" alt="photo-grind" class="photo-grind__item">
-          <img src="./images/photo-grid/photo-grid-ergaki.jpg" alt="photo-grind" class="photo-grind__item">
+        <section class="photo-grid section section_wide">
+          <img src="./images/photo-grid/photo-grid-train.jpg" alt="фотография поезда" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="фотография Атхарва Тулси" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-tuman.jpg" alt="фотография тумана" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-sochi.jpg" alt="фотография Сочи" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-arisa.jpg" alt="фотография колеса на льду" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-baikal-2.jpg" alt="фотография Байкала" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="фотография Атхарва Тулси" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-kondratiev.jpg" alt="фотография Кондратьева" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-kamchatka-1.jpg" alt="фотография Камчатки" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-kamchatka-2.jpg" alt="фотография Камчатки" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-baikal-2.jpg" alt="фотография Байкала" class="photo-grid__item">
+          <img src="./images/photo-grid/photo-grid-ergaki.jpg" alt="фотография Ергаки" class="photo-grid__item">
         </section>
 
         <section class="places section section_narrow">
