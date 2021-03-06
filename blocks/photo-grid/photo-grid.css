@@ -1,5 +1,4 @@
 .photo-grid {
-  /* убрать margin при display: grid; */
   margin-bottom: 64px;
 
   display: grid;

@@ -1,5 +1,4 @@
 .places {
-  /* убрать margin при display: grid; */
   margin-bottom: 66px;
 
   display: grid;

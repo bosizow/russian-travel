@@ -1,9 +1,11 @@
 .place__website {
+  padding: 0 16px;
   grid-area: website;
 }
 
 @media screen and (min-width: 768px) {
   .place__website {
+    padding: 0;
     align-self: end;
     justify-self: stretch;
   }
